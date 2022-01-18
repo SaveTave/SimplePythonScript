@@ -21,7 +21,7 @@ pd.options.display.max_rows = 5000
 data = yf.download(
     tickers="DOT-USD",
 
-#Periodo scelto (5d = 5 giorni)   
+#Periodo scelto (es: 5d = 5 giorni)   
 period= "1y",
 
 #TimeFrame
